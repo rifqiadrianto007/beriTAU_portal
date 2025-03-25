@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -23,6 +24,7 @@ header {
     font-size: 24px;
     font-weight: bold;
 }
+
 nav ul {
     list-style: none;
     display: flex;
@@ -30,27 +32,33 @@ nav ul {
     padding: 0;
     margin: 0;
 }
+
 nav a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
+
 .container {
     max-width: 1000px;
     margin: auto;
     padding: 20px;
 }
+
 .main-news img {
     width: 100%;
     border-radius: 8px;
 }
+
 .news-grid {
     display: flex;
     gap: 20px;
 }
+
 .news-category {
     flex: 1;
 }
+
 .news-item {
     display: flex;
     gap: 10px;
@@ -60,10 +68,12 @@ nav a {
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
+
 .social-media {
     text-align: center;
     margin-top: 20px;
 }
+
 footer {
     text-align: center;
     padding: 10px;
