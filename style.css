@@ -12,6 +12,13 @@ header {
     padding: 10px 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.hover-effect:hover {
+    color: blue;
+    text-decoration: underline;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
 .logo {
     font-size: 24px;
     font-weight: bold;
