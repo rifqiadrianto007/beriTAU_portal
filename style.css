@@ -62,12 +62,30 @@ nav a {
 
 .news-item {
     display: flex;
-    gap: 10px;
+    align-items: flex-start; /* Pastikan konten sejajar di atas */
+    gap: 15px;
     background: white;
     padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.news-content {
+    display: flex;
+    flex-direction: column; /* Susun teks ke bawah */
+    justify-content: flex-start;
+}
+
+.news-content h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.news-content p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #444;
 }
 
 .social-media {
