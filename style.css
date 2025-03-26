@@ -63,7 +63,7 @@ nav a {
 
 .news-item {
     display: flex;
-    align-items: flex-start; /* Pastikan konten sejajar di atas */
+    align-items: flex-start;
     gap: 15px;
     background: white;
     padding: 10px;
@@ -71,9 +71,14 @@ nav a {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.news-item:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
+
 .news-content {
     display: flex;
-    flex-direction: column; /* Susun teks ke bawah */
+    flex-direction: column; 
     justify-content: flex-start;
 }
 
